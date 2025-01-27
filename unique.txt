@@ -1,0 +1,4 @@
+punto. un punto esclamativo . un punto interrogativo o si trova all'inizio del testo .
+con chiave la prima parola di ogni frase e valore il numero di volte che una frase inizia
+punto. un punto esclamativo . un punto interrogativo o si trova all'inizio del testo .Definire una funzione conteggio che prende come input un file e ritorna un dizionario ?
+con quella parola ? Considerare come inizio di frase qualsiasi parola che segue un 
