@@ -1,38 +1,13 @@
-class Model():
-    def fit(self, data):
-        return sum(data)
-    # Fit non implementanto nella classe base
-        raise NotImplementedError('Metodo non implementato')
-    def predict(self, data):
-    # Predict non implementanto nella classe base
-
-class  TrendModel(Model):
-    def predict(self,lista):
-      
-        if not isinstance(lista, list):
-            return f"{lista} non è tipo <list>"
-        predict = 0
-        for i in range(len(lista)-1):
-        
-            try:
-                predict += lista[i+1] - lista[i]
-            except:
-                raise ('Errore, C')
-        predict = lista[-1] + predict/len(lista[1::])
-        return predict
-# mov = TrendModel()
-# a = [50,52,60]
-# mov_data = mov.predict(a)
-# print(mov_data)
-# print(mov_data
-with open('/workspaces/ProgramingLab/Modello_python.py', 'r') as file:
-    lista = []
-    file_dest = open('/workspaces/ProgramingLab/Projet_python/loic.txt', 'w')
-    
-    my_file = file.readlines()
-    for line in my_file:
-        if not line in lista:
-            lista.append(line)
-            file_dest.write(line)
-        #print (line)
-   # print(lista)
+GitHub Inc venne fondata nel 2008 con il nome di Logical Awesome ! Il sito era realizzato
+utilizzando Ruby on Rails ed Erlang dagli sviluppatori Chris Wanstrath PJ Hyett e Tom
+Preston-Werner. Il 24 febbraio 2009 fu annunciata l'attivazione di 46000 repository pubblici
+di cui 17000 solo nei 30 giorni precedenti ? Il 5 luglio raggiunsero i 100000 utenti. Il 27
+luglio 2009 i repository pubblici diventarono 135000, l'anno dopo aumentarono a 1 milione
+per poi arrivare a 2 milioni nell'aprile 2011. Nel luglio 2012 la compagnia ha ricevuto 100
+milioni di dollari da Andreessen Horowitz per avviare la stessa.
+luglio 2009 i repository pubblici diventarono 135000, l'anno dopo aumentarono a 1 milione
+per poi arrivare a 2 milioni nell'aprile 2011. Nel luglio 2012 la compagnia ha ricevuto 100
+milioni di dollari da Andreessen Horowitz per avviare la stessa.
+GitHub Inc venne fondata nel 2008 con il nome di Logical Awesome ! Il sito era realizzato
+utilizzando Ruby on Rails ed Erlang dagli sviluppatori Chris Wanstrath PJ Hyett e Tom
+Preston-Werner. Il 24 febbraio 2009 fu annunciata l'attivazione di 46000 repository pubblici

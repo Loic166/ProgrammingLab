@@ -1,0 +1,8 @@
+GitHub Inc venne fondata nel 2008 con il nome di Logical Awesome ! Il sito era realizzato
+utilizzando Ruby on Rails ed Erlang dagli sviluppatori Chris Wanstrath PJ Hyett e Tom
+Preston-Werner. Il 24 febbraio 2009 fu annunciata l'attivazione di 46000 repository pubblici
+di cui 17000 solo nei 30 giorni precedenti ? Il 5 luglio raggiunsero i 100000 utenti. Il 27
+luglio 2009 i repository pubblici diventarono 135000, l'anno dopo aumentarono a 1 milione
+per poi arrivare a 2 milioni nell'aprile 2011. Nel luglio 2012 la compagnia ha ricevuto 100
+milioni di dollari da Andreessen Horowitz per avviare la stessa.
+Preston-Werner. Il 24 febbraio 2009 fu annunciata l'attivazione di 46000 repository pubblici

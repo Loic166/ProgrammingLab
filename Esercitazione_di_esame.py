@@ -13,11 +13,6 @@ class MovingAverage():
         if len(lista) < self.lunghezza:
             raise ExamException ('Errore,la lunghezza della finestra deve essere minore o uguale alla dimensione della lista.')
         
-        if self.lunghezza == 1:
-            return lista
-        
-        if len(lista) == 0:
-            raise ExamException('')
         list_media = []
         try:
             for i in range(len(lista)-1):
@@ -37,10 +32,10 @@ class MovingAverage():
         except:
             raise ExamException('Errore, La lista inserita è vuota.')
         
-# mov = MovingAverage(5)
-# list_mov = mov.compute([2,4,8,16,'s'])
-list = []
-print(len(list))
+mov = MovingAverage(1)
+list_mov = mov.compute([2,4,8,16,'r'])
+
+print(list_mov)
                 
 
 
